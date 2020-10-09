@@ -1,0 +1,119 @@
+.bd-highlight {
+    background-color: rgba(86, 61, 124, 0.15);
+    border: 1px solid rgba(86, 61, 124, 0.15);
+}
+
+.nav-devfest2020.agenda {
+    .nav-item {
+        padding: 0;
+        margin: 0 30px;
+
+        .nav-link {
+            @extend .d-flex;
+            @extend .justify-content-center;
+            @extend .align-items-center;
+            padding: 0;
+            font-size: 1.8rem;
+            width: 173px;
+            height: 193px;
+
+            small {
+                @extend .mt-2;
+                display: block;
+                font-size: 0.5rem;
+            }
+        }
+    }
+}
+
+#agenda {
+    @extend .mb-5;
+
+    .nav-devfest2020 {
+        .nav-link {
+            width: 160px;
+            height: 132px;
+            font-size: 1.2em;
+        }
+    }
+
+    .row {
+        @extend .mb-3;
+
+        .col-md:first-child {
+            time {
+                display: block;
+            }
+        }
+    }
+
+    .card {
+        @include border-radius(0);
+        position: relative;
+
+        time {
+            @extend .float-right;
+            @extend .ml-4;
+            line-height: 2rem;
+            font-size: 2rem;
+
+            .date {
+                display: none;
+            }
+            .minutes {
+                font-size: 1.5rem;
+            }
+        }
+
+        .btn {
+            @include button-variant(#cb2323, #cb2323);
+            @include border-radius(0);
+        }
+
+        .card-footer {
+            @include border-radius(0);
+            @extend .d-flex;
+            @extend .align-items-center;
+            background-color: transparent;
+            border-top: 0;
+
+            img {
+                @extend .mr-1;
+            }
+
+            .tag {
+                @extend .ml-auto;
+                padding: 3px 10px;
+                color: #001adf;
+                border: 1px solid #001adf;
+            }
+        }
+    }
+
+    .timeline {
+        &.show-date {
+            .col-md {
+                .card:first-child {
+                    @extend .mt-5;
+                    position: relative;
+                    .date {
+                        display: block;
+                        position: absolute;
+                        width: 100%;
+                        left: 0;
+                        top: -3rem;
+                        color: #001adf;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// @include media-breakpoint-down(md) {
+//     @import 'agenda_mobile';
+// }
+
+@include media-breakpoint-down(xs) {
+    @import 'agenda_mobile';
+}

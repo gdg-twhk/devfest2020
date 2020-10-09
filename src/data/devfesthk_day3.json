@@ -1,0 +1,93 @@
+{
+  "9:45": [
+    {
+      "time": "2020-10-17 9:45",
+      "title": "DevFest Taiwan: Modern Serverless deployment of a Reactive Container to the Cloud",
+      "description": "",
+      "link": "#",
+      "speaker": {
+        "avatar": "",
+        "name": "",
+        "tag": "Cloud"
+      }
+    }
+  ],
+  "11:20": [
+    {
+      "time": "2020-10-17 11:20",
+      "title": "DevFest Taiwan: Cloud Run 是什麼好吃嗎",
+      "description": "",
+      "link": "#",
+      "speaker": {
+        "avatar": "",
+        "name": "",
+        "tag": "Cloud"
+      }
+    }
+  ],
+  "13:00": [
+    {
+      "time": "2020-10-17 13:00",
+      "title": "DevFest Taiwan: How to debug Microservices on Kubernetes as a pros",
+      "description": "",
+      "link": "#",
+      "speaker": {
+        "avatar": "",
+        "name": "",
+        "tag": "Cloud"
+      }
+    }
+  ],
+  "14:00": [
+    {
+      "time": "2020-10-17 14:00",
+      "title": "What's New in Google Play",
+      "description": "Tune in to hear the latest about Google Play that may be relevant for you! ",
+      "link": "#",
+      "speaker": {
+        "avatar": "https://drive.google.com/file/d/1NXpo_d4LLGfTRIdI6KlBFKXSekpm2Koc/view?usp=sharing",
+        "name": "WTM Jennifer Chan",
+        "tag": "WTM"
+      }
+    }
+  ],
+  "14:40": [
+    {
+      "time": "2020-10-17 14:40",
+      "title": "A Journey to Modernize Our Software Systems",
+      "description": "Have you ever given a thought on how to modernize 15 years old software systems? How about if they are written in 2 different countries by engineers from different tech backgrounds and in fact formerly being competitors? Do you think it is quick and easy to move from a data center to a modern cloud infrastructure? I’d talk about challenges and complexity to transform mature systems with millions of users to be supported around the clock. Join the session to find out about various ways to go about this journey, what worked and what didn't work for us.",
+      "link": "#",
+      "speaker": {
+        "avatar": "https://drive.google.com/file/d/1vgu7C7C2SJSfCSlEBSM8mh6yJ0M3zqbx/view?usp=sharing",
+        "name": "Jane Freider",
+        "tag": "WTM"
+      }
+    }
+  ],
+  "15:20": [
+    {
+      "time": "2020-10-17 15:20",
+      "title": "Material Design 101: Introduction to Google Dark Theme",
+      "description": "",
+      "link": "#",
+      "speaker": {
+        "avatar": "",
+        "name": "Mandy So",
+        "tag": "WTM"
+      }
+    }
+  ],
+  "16:20": [
+    {
+      "time": "2020-10-17 16:20",
+      "title": "Career Topic TBC",
+      "description": "",
+      "link": "#",
+      "speaker": {
+        "avatar": "",
+        "name": "Tony",
+        "tag": "Other"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <%- include('partials/header') %>
+  <title>議程-台灣</title>
+</head>
+
+<body>
+  <%- include('partials/nav') %>
+
+  <div id="agenda">
+    <div class="container-fluid">
+      <h1><span>議程</span></h1>
+
+      <div class="nav-devfest2020 agenda">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link active">
+              <span>
+                台灣場
+                <small>10/17<br />10:00 - 16:10</small>
+              </span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">
+              <span>
+                香港場
+                <small>
+                  10/10<br />
+                  10/11<br />
+                  10/17<br />
+                  10/18
+                </small>
+              </span>
+            </a>
+          </li>
+          <li class="nav-item"><a class="nav-link">
+              <span>
+                錄影<br />首播場
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <% items = agenda.Taiwan %>
+    <div class="timeline">
+      <div class="container-fluid">
+        <% ['10:00', '10:40', '11:20'].forEach(time => { %>
+        <div class="row">
+          <% items[time].forEach(data => { %>
+          <%- include('partials/agenda-item', data) %>
+          <% }) %>
+        </div>
+        <% }) %>
+
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text">
+                  <time datetime="11:20">
+                    <span class="time">11<span class="sr-only">:</span><small>20</small></span>
+                  </time>
+                  Lunch
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <% ['13:00', '13:40', '14:20', '15:00', '15:40'].forEach(time => { %>
+        <div class="row">
+          <% items[time].forEach(data => { %>
+          <%- include('partials/agenda-item', data) %>
+          <% }) %>
+        </div>
+        <% }) %>
+      </div>
+    </div>
+  </div>
+  <%- include('partials/footer') %>
+</body>
+
+</html>

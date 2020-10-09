@@ -1,0 +1,7 @@
+{
+    "hosting": {
+        "site": "devfest2020",
+        "public": "public",
+        "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    }
+}

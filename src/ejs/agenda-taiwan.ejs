@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <%- include('partials/header') %>
+  <title>議程-台灣</title>
+</head>
+
+<body>
+  <%- include('partials/agenda-nav') %>
+
+  <div id="agenda">
+    <div class="container-fluid">
+      <h1><span>議程</span></h1>
+
+      <div class="nav-devfest2020 agenda">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link active">
+              <span>
+                台灣場
+                <small>10/17<br />10:00 - 16:10</small>
+              </span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="agenda-hongkong.html">
+              <span>
+                香港場
+                <small>
+                  10/10<br />
+                  10/11<br />
+                  10/17<br />
+                  10/18
+                </small>
+              </span>
+            </a>
+          </li>
+          <li class="nav-item"><a class="nav-link">
+              <span>
+                錄影<br />首播場
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <% items = agenda.Taiwan %>
+    <div class="timeline">
+      <div class="container-fluid">
+        <div class="row">
+          <% for (i = 0; i < 4; i++) { %>
+          <div class="col-md">
+            <% items[i+1].forEach((data) => { %>
+            <%- include('partials/agenda-item', data) %>
+            <%}) %>
+          </div>
+          <%} %>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <%- include('partials/footer') %>
+</body>
+
+</html>

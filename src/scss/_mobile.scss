@@ -1,0 +1,187 @@
+h1 {
+    font-size: 2rem;
+    margin: 1rem 0;
+
+    span {
+        &:before,
+        &:after {
+            top: 14px;
+        }
+
+        &:before {
+            @include sprite($mobile_arrow_left);
+            left: -1em;
+        }
+
+        &:after {
+            @include sprite($mobile_arrow_right);
+            right: -1em;
+        }
+    }
+}
+
+#navbar-devfest2020 {
+    .navbar-brand {
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+}
+
+#devfest2020 {
+    height: 688px;
+    background-image: url('../images/mobile_bg_1.png');
+    background-color: #e9e8e8;
+
+    #devfest2020-logo {
+        @include sprite($mobile_devfest);
+        margin: 0px 0 70px;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+
+        &:last-child {
+            padding-bottom: 5rem;
+        }
+
+        small {
+            font-size: 1rem;
+        }
+    }
+}
+
+#devfest2020-subjects {
+    height: 511px;
+    background-image: url('../images/mobile_bg_2.png');
+
+    li {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+}
+
+#devfest2020-agenda {
+    height: 420px;
+    padding-top: 50px;
+    background-image: url('../images/mobile_bg_3.png');
+    background-color: #001adf;
+
+    h1 {
+        line-height: 129px;
+
+        span {
+            &:before {
+                @include sprite($mobile_arrow_left_w);
+            }
+
+            &:after {
+                @include sprite($mobile_arrow_right_w);
+            }
+        }
+    }
+
+    .frame {
+        @extend .d-inline-block;
+        background-image: url('../images/mobile_yellow_frame.png');
+        background-position: 50% 100%;
+        background-repeat: no-repeat;
+        width: 212px;
+        height: 129px;
+    }
+}
+
+#devfest2020-participate {
+    .card-deck {
+        margin-top: 70px;
+    }
+    .card {
+        margin: 0 auto;
+    }
+
+    .card-header {
+        background-size: 70%;
+    }
+
+    .tab-pane.fade {
+        &:not(.show) {
+            display: none;
+        }
+        &.active {
+            display: block;
+            visibility: hidden;
+        }
+        &.show {
+            visibility: visible;
+        }
+    }
+
+    .card {
+        border-image-width: 10px;
+        max-width: 378px;
+    }
+
+    .community {
+        h3 {
+            font-size: 2rem;
+        }
+
+        ul {
+            margin-top: 1rem;
+            a {
+                font-size: 2rem;
+            }
+
+            &.l {
+                li {
+                    margin: 0 5px;
+                }
+            }
+        }
+    }
+
+    .nav-item {
+        margin: 0 3px;
+
+        .nav-link {
+            padding: 13px 18px;
+        }
+    }
+}
+
+footer {
+    .col-md {
+        text-align: center !important;
+        margin: 0 !important;
+    }
+
+    li {
+        margin-bottom: 1rem;
+    }
+
+    .scroll-to-top {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        top: -35px;
+    }
+}
+
+.nav-devfest2020.agenda {
+    margin-top: 60px !important;
+
+    .nav-item {
+        margin: 0 3px;
+
+        .nav-link {
+            width: 85px;
+            height: 110px;
+            font-size: 1rem;
+
+            small {
+                margin-top: 5px !important;
+                font-size: 0.6rem !important;
+            }
+        }
+    }
+}

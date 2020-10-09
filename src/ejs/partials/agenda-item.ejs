@@ -1,0 +1,33 @@
+<% const date = new Date(time); %>
+<div class="card mb-3">
+    <div class="card-body">
+        <time datetime="<%= time %>">
+            <span class="date"><%= date.getMonth() + 1 %>/<%= date.getDate() %></span>
+            <span class="time">
+                <%= ("0"+date.getHours()).substr(-2) %>
+                <span class="sr-only">:</span><span class="minutes"><%= ("0"+date.getMinutes()).substr(-2) %></span>
+            </span>
+        </time>
+        <h5 class="card-title">
+            <%- title %>
+        </h5>
+        <p class="card-text">
+            <%- description %>
+        </p>
+        <a href="<%= link %>" class="btn btn-sm">前往直播</a>
+    </div>
+    <div class="card-footer align-middle">
+        <span class="speaker">
+            <% if (speaker.avatar) { %>
+            <img class="rounded-circle" src="<%= speaker.avatar %>" width="30" height="30"
+                onerror="this.src='images/avatar.png'">
+            <% } else { %>
+            <img class="rounded-circle" src="images/avatar.png" width="30" height="30">
+            <% } %>
+            <span class="name"><%= speaker.name %></span>
+        </span>
+        <span class="tag">
+            <%= speaker.tag %>
+        </span>
+    </div>
+</div>

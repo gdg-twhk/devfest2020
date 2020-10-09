@@ -1,0 +1,362 @@
+@import '~bootstrap/scss/bootstrap';
+@import '~@fortawesome/fontawesome-free/css/all';
+@import 'sidenav';
+@import 'social';
+@import 'agenda';
+@import '~sprite';
+
+html,
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+h1 {
+    @extend .text-center;
+    color: #001adf;
+    font-size: 3em;
+    margin: 1.5em 0;
+
+    span {
+        position: relative;
+
+        &:before,
+        &:after {
+            content: ' ';
+            position: absolute;
+            top: 22px;
+        }
+
+        &:before {
+            @include sprite($arrow-left);
+            left: -0.8em;
+        }
+
+        &:after {
+            @include sprite($arrow-right);
+            right: -0.8em;
+        }
+    }
+}
+
+#navbar-devfest2020 {
+    color: #fff;
+    background-color: #001adf;
+
+    .navbar-brand {
+        color: #fff;
+    }
+
+    .nav-link {
+        color: #fff;
+    }
+}
+
+#devfest2020 {
+    @extend .text-center;
+    @extend .d-flex;
+    @extend .justify-content-center;
+    @extend .align-items-center;
+    height: 1019px;
+    background-image: url('../images/bg_1.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
+    #devfest2020-logo {
+        @extend .d-inline-block;
+        @include sprite($devfest);
+        text-indent: -10000px;
+    }
+
+    h3 {
+        color: #2567b1;
+        font-size: 2rem;
+        line-height: 2.5rem;
+
+        &:last-child {
+            padding-bottom: 5rem;
+        }
+
+        small {
+            display: block;
+        }
+    }
+}
+
+#devfest2020-subjects {
+    @extend .text-center;
+    @extend .d-flex;
+    @extend .justify-content-center;
+    @extend .align-items-center;
+    height: 930px;
+    background-image: url('../images/bg_2.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+    ul {
+        @extend .list-unstyled;
+    }
+
+    li {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        color: #707070;
+    }
+}
+
+#devfest2020-agenda {
+    @extend .text-center;
+    height: 740px;
+    padding-top: 70px;
+    background-image: url('../images/bg_3.png');
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-color: #001adf;
+    color: #fff;
+
+    .frame {
+        @extend .d-inline-block;
+        background-image: url('../images/yellow_frame.png');
+        background-position: 50% 100%;
+        background-repeat: no-repeat;
+        width: 468px;
+        height: 283px;
+    }
+
+    h1 {
+        color: #fff;
+        line-height: 283px;
+        margin: 0;
+
+        span {
+            &:before {
+                @include sprite($arrow-left-w);
+            }
+
+            &:after {
+                @include sprite($arrow-right-w);
+            }
+        }
+    }
+
+    .nav-devfest2020.agenda {
+        margin-top: 100px;
+
+        .nav-item {
+            border-image-source: url('../images/white_frame.png');
+
+            .nav-link {
+                color: #fff;
+            }
+        }
+    }
+}
+
+#devfest2020-participate {
+    padding-top: 3rem;
+
+    .card-deck {
+        margin-top: 150px;
+    }
+
+    .card {
+        @extend .mb-5;
+        border-radius: 0;
+        border-image-source: url('../images/frame.png');
+        border-image-slice: 29;
+        border-image-width: 15px;
+        border-image-repeat: stretch;
+    }
+
+    .card-header {
+        border: none;
+        background-repeat: no-repeat;
+        background-position: 53% 50%;
+        background-color: transparent;
+        background-size: 80%;
+        height: 148px;
+        text-indent: -10000px;
+        margin-top: -74px;
+    }
+
+    .community {
+        @extend .mb-5;
+
+        h3 {
+            font-size: 1.5rem;
+            font-weight: normal;
+        }
+
+        ul {
+            @extend .list-inline;
+            @extend .mt-2;
+
+            &.l {
+                li {
+                    margin: 0 5px;
+                }
+            }
+
+            li {
+                @extend .d-inline-block;
+                margin: 0;
+
+                a {
+                    line-height: 2rem;
+                    span {
+                        display: none;
+                    }
+                }
+
+                .fab {
+                    color: gray;
+                    font-size: 1.7rem;
+                }
+            }
+        }
+    }
+
+    .GDG {
+        .card-header {
+            background-image: url('../images/community_gdg.png');
+        }
+    }
+
+    .GDG_Cloud {
+        .card-header {
+            background-image: url('../images/community_gdg_cloud.png');
+        }
+    }
+
+    .WTM {
+        .card-header {
+            background-image: url('../images/community_wtm.png');
+        }
+    }
+}
+
+footer {
+    @extend .mt-5;
+    @extend .pb-3;
+    position: relative;
+    background: #f2f2f2;
+    color: #707070;
+    padding-top: 80px;
+
+    ul {
+        @extend .list-inline;
+    }
+
+    li {
+        @extend .list-inline-item;
+
+        a {
+            display: block;
+            text-indent: -10000px;
+            height: 26px;
+            background-position: 0 50%;
+            background-repeat: no-repeat;
+            margin-right: 5px;
+        }
+    }
+
+    .col-md {
+        @extend .ml-5;
+    }
+
+    .copyright {
+        @extend .text-right;
+        font-size: 1.1rem;
+        @extend .mr-5;
+    }
+
+    .GDG {
+        @include sprite($gray_gdg);
+    }
+
+    .GDG_Cloud {
+        @include sprite($gray_gdg_cloud);
+    }
+
+    .WTM {
+        @include sprite($gray_wtm);
+    }
+
+    .scroll-to-top {
+        @include border-radius(50%);
+        @extend .mr-5;
+        @extend .text-center;
+
+        position: absolute;
+        font-size: 30px;
+        color: #707070;
+        width: 92px;
+        height: 92px;
+        line-height: 92px;
+        top: -46px;
+        background-color: #fff;
+        box-shadow: 0px 3px 6px #00000029;
+        right: 0;
+    }
+}
+
+.nav-devfest2020 {
+    @extend .text-center;
+
+    .nav {
+        @extend .d-inline-block;
+        @extend .clearfix;
+        border-bottom: 0;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .nav-item {
+        @extend .float-left;
+
+        border: 1px solid #ccc;
+        border-radius: 0;
+        border-image-source: url('../images/blue_frame.png');
+        border-image-slice: 29;
+        border-image-width: 10px;
+        border-image-repeat: stretch;
+        margin: 0 10px;
+
+        .nav-link {
+            padding: 10px 15px;
+            display: block;
+            width: 100%;
+            height: 100%;
+
+            &.active {
+                color: #fff;
+                background: #001adf;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    #devfest2020-participate {
+        .nav-devfest2020 {
+            display: none;
+        }
+
+        .tab-pane {
+            opacity: 1 !important;
+        }
+    }
+}
+
+@include media-breakpoint-down(md) {
+    @import 'mobile';
+}
+
+@include media-breakpoint-down(xs) {
+    #navbar-devfest2020 {
+        .navbar-brand {
+            span {
+                margin-left: -40px;
+            }
+        }
+    }
+}

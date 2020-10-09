@@ -1,0 +1,80 @@
+{
+  "10:30": [
+    {
+      "time": "11/10/2020 10:30",
+      "title": "Android topic TBC",
+      "description": "",
+      "link": "#",
+      "speaker": {
+        "avatar": "",
+        "name": "",
+        "tag": "Mobile"
+      }
+    }
+  ],
+  "11:20": [
+    {
+      "time": "11/10/2020 11:20",
+      "title": "Transform your website to PWA",
+      "description": "Progressive Web App is more and more important on the development of website nowadays. Adding PWA to exists project is not that easy, you will be introduced on the way of adding PWA to your exists project.",
+      "link": "#",
+      "speaker": {
+        "avatar": "http://www.gravatar.com/avatar/94a1b6213d134229d540c13fc7923fc9?s=128",
+        "name": "Tony Yip",
+        "tag": "Web"
+      }
+    }
+  ],
+  "12:00": [
+    {
+      "time": "11/10/2020 12:00",
+      "title": "Building dynamic UI with Jetpack Compose",
+      "description": "- Why Jetpack Compose? - Jetpack Compose 1001 - How Jetpack Compose solves our real life problem more elegantly",
+      "link": "#",
+      "speaker": {
+        "avatar": "",
+        "name": "Wingy Ng",
+        "tag": "Mobile"
+      }
+    }
+  ],
+  "14:00": [
+    {
+      "time": "11/10/2020 14:00",
+      "title": "Getting away with not writing documentation by using gRPC",
+      "description": "Sorry for the click-bait title. But seriously, come and learn how a modern RPC framework can improve the workflow and communication of your team(s).",
+      "link": "#",
+      "speaker": {
+        "avatar": "",
+        "name": "George Leung",
+        "tag": "Other"
+      }
+    }
+  ],
+  "14:40": [
+    {
+      "time": "11/10/2020 14:40",
+      "title": "Your Browser’s UI thread is overworked, underpaid, and begging your help",
+      "description": "- Why 99% of the Browsers’ UI threads are overworked\n- Why the UI thread is going to be underpaid?\n- Do You know your the UI Thread always send SOS signal to you?\n- Off load your tasks by natures. UI threads only do UI works.",
+      "link": "#",
+      "speaker": {
+        "avatar": "https://drive.google.com/file/d/1QTWIE-BYdHFfalMaLQYwbNlUko2OcNSo/view?usp=sharing",
+        "name": "Gap撈Tech",
+        "tag": "Web"
+      }
+    }
+  ],
+  "15:20": [
+    {
+      "time": "11/10/2020 15:20",
+      "title": "Codelab: Build a DevFest Agenda Action for Google Assistant using Actions Builder",
+      "description": "Hands-on workshop to build a DevFest Agenda voice assistant app on Google Assistant platform. This time we will use the newly announced web-based IDE \"Actions Builder\" in the Actions console to build the action together. Beginner level, will do few lines coding but having programming background is not necessary. Requires laptop/computer with chrome browser.",
+      "link": "#",
+      "speaker": {
+        "avatar": "https://www.gdghk.org/wp-content/uploads/2020/06/emma.png",
+        "name": "Emma Wong",
+        "tag": "Google Assistant"
+      }
+    }
+  ]
+}
