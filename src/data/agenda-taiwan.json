@@ -1,18 +1,64 @@
 {
+    "09:45": [
+        {
+            "time": "2020-10-17 09:45",
+            "title": "Devfest 2020 開場",
+            "description": " ",
+            "link": "#",
+            "speaker": {
+                "avatar": "",
+                "name": "Shangkuan Ericsk",
+                "tag": "Devfest"
+            }
+        }, 
+        {
+            "time": "2020-10-17 09:45",
+            "title": "Devfest 2020 開場",
+            "description": " ",
+            "link": "#",
+            "speaker": {
+                "avatar": "",
+                "name": "Shangkuan Ericsk",
+                "tag": "Devfest"
+            }
+        }, 
+        {
+            "time": "2020-10-17 09:45",
+            "title": "Devfest 2020 開場",
+            "description": " ",
+            "link": "#",
+            "speaker": {
+                "avatar": "",
+                "name": "Shangkuan Ericsk",
+                "tag": "Devfest"
+            }
+        },
+        {
+            "time": "2020-10-17 09:45",
+            "title": "Devfest 2020 開場",
+            "description": " ",
+            "link": "#",
+            "speaker": {
+                "avatar": "",
+                "name": "Shangkuan Ericsk",
+                "tag": "Devfest"
+            }
+        }
+    ],
     "10:00": [
         {
-            "time": "2020-10-18 10:00",
+            "time": "2020-10-17 10:00",
             "title": "Modern Serverless deployment of a Reactive Container to the Cloud (1/2)",
             "description": "We have been hearing a lot about the benefits of using the reactive approach to solving concurrency problems in distributed systems. While reactive programming refers to the implementation techniques being used on the coding level, on the systems deployment and runtime level, we can leverage on a robust yet very flexible and lightweight framework such as Vert.x to deliver. In this session, we will first learn about what the missions of a reactive system are, which, among many things, include handling multiple concurrent data stream flows and being able to control back pressure as well as managing errors in an elegant manner. The very loosely-coupled nature of a reactive system also lends itself very well to building microservices that can communicate well within its messaging infrastructure.  We will also discuss the special polyglot nature of Vert.x, its event loop, and its use of the Vertical model. Live coding will accompany this session to illustrate how to program a simple use case using multiple JVM languages such as Java and Kotlin, we will then build and dockerize it to be deployed as a serverless container to the Knative cluster on the cloud in a delightful manner.",
             "link": "#",
             "speaker": {
-                "avatar": "https://drive.google.com/file/d/1Ou2kTBPwLWMObXCld8juDO60V_PSdWiC/view?usp=sharing",
+                "avatar": "https://lh3.google.com/u/0/d/1Ou2kTBPwLWMObXCld8juDO60V_PSdWiC=w640-h400-k-iv1",
                 "name": "Mary Grygleski",
                 "tag": "Cloud"
             }
         },
         {
-            "time": "2020-10-18 10:00",
+            "time": "2020-10-17 10:00",
             "title": "科技教育在台灣，真的只是教程式嗎？",
             "description": "科技教育是什麼？(5 mins)<br />以一位教學者觀察台灣科技教育的實現 (10 mins)<br />108課綱在台灣對程式學習的影響 (10 mins)<br />想像未來的科技 x 教育 (5 mins)",
             "link": "#",
@@ -23,23 +69,23 @@
             }
         },
         {
-            "time": "2020-10-18 10:00",
+            "time": "2020-10-17 10:00",
             "title": "Develop Interactive Canvas with Action On Google",
             "description": "印象中的Action On Google<br />AOG分別deploy在哪些裝置上<br />Interactive Canvas是什麼<br />簡單實作Interactive Canvas with Action On Google<br />試玩看實作內容",
             "link": "#",
             "speaker": {
-                "avatar": "https://drive.google.com/file/d/1rTW-GTUgrfFEhRdDpsdTt8xAX4ZolZkx/view?usp=sharing",
+                "avatar": "https://lh3.google.com/u/0/d/1FHmOvFoA9Zxh61nwqmt5gWRsSpaQ66GM=w640-h400-k-iv1",
                 "name": "Martin Hsu",
                 "tag": "GOOGLE ASSISTANT"
             }
         },
         {
-            "time": "2020-10-18 10:00",
+            "time": "2020-10-17 10:00",
             "title": "Model Serialization: Lesson Learned from Tensorflow 1.x and 2.x",
             "description": "簡介 Tensorflow 模型儲存格式變革跟 uTensor code generator 因此面對的挑戰與困難",
             "link": "#",
             "speaker": {
-                "avatar": "https://drive.google.com/file/d/1aQzK-4jxURGSVH2L1-UHTQP_-WqYm27O/view?usp=sharing",
+                "avatar": "https://lh3.google.com/u/0/d/1sPdRfuvrPqTzAqb_MR0ETO5ijzLBaRcp=w640-h400-k-iv2",
                 "name": "Tzu-ping Chung",
                 "tag": "ML"
             }
@@ -47,18 +93,18 @@
     ],
     "10:40": [
         {
-            "time": "2020-10-18 10:40",
+            "time": "2020-10-17 10:40",
             "title": "Modern Serverless deployment of a Reactive Container to the Cloud (2/2)",
             "description": " ",
             "link": "#",
             "speaker": {
-                "avatar": "https://drive.google.com/file/d/1Ou2kTBPwLWMObXCld8juDO60V_PSdWiC/view?usp=sharing",
+                "avatar": "https://lh3.google.com/u/0/d/1Ou2kTBPwLWMObXCld8juDO60V_PSdWiC=w640-h400-k-iv1",
                 "name": "Mary Grygleski",
                 "tag": "Cloud"
             }
         },
         {
-            "time": "2020-10-18 10:40",
+            "time": "2020-10-17 10:40",
             "title": "工程師的斜槓人生：經營 Podcast 的心得分享",
             "description": "分享一個軟體工程師為什麼想做 Podcast，以及在做 Podcast 的過程中所遇到驚喜與挑戰。",
             "link": "#",
@@ -69,23 +115,23 @@
             }
         },
         {
-            "time": "2020-10-18 10:40",
+            "time": "2020-10-17 10:40",
             "title": "語音使用介面與對話式action製作",
             "description": "這個議程將為各位簡述Google助理的對話式Action之運作原理以及建立專案的基本流程。<br />內容主要可以分成：<br />．淺談對話式Action運作<br />．開發對話式Action：以DialogFlow作為範例<br />．設計語音用戶介面<br />．應用Dialog fulfillment將回應程式化<br />．簡述如何增加回應的豐富度",
             "link": "#",
             "speaker": {
-                "avatar": "https://drive.google.com/drive/folders/1OTs0iPAdS2-qTMD53wRfEYxZGG8wesWN?usp=sharing",
+                "avatar": "https://lh3.google.com/u/0/d/1GbP-KUtISOCD2QjmAyJNgLleb-u4uK3q=w640-h400-k-iv2",
                 "name": "游紹宏",
                 "tag": "GOOGLE ASSISTANT"
             }
         },
         {
-            "time": "2020-10-18 10:40",
+            "time": "2020-10-17 10:40",
             "title": "TensorFlow 與其他框架的模型轉換",
             "description": "TensorFlow 與其他框架的模型轉換<br />tensorflow 1, 2, keras 的存檔格式<br />讀取存檔的方法<br />轉換成 openvino<br />轉換成 tflite<br />使用 mmdnn 來轉換不同的格式",
             "link": "#",
             "speaker": {
-                "avatar": "https://drive.google.com/file/d/1wsydpIrW12sZpXlX9csDLZ7BmiBuxcfI/view?usp=sharing",
+                "avatar": "https://lh6.googleusercontent.com/dRLjLLyd7NaTM_HAeiMCcS7Va7JISzFUli6X7vXyAmVWqUMEuk_W4-xdJ9ihWsCSM_VCjVFXh2SonqsG6wxf=w1846-h977",
                 "name": "魏澤人老師 / 交大 AI 學院副教授/ML GDE",
                 "tag": "ML"
             }
@@ -93,40 +139,40 @@
     ],
     "11:20": [
         {
-            "time": "2020-10-18 11:20",
+            "time": "2020-10-17 11:20",
             "title": "Cloud Run 是什麼好吃嗎(?",
             "description": "簡介 CloudRun 還有在今年 Google Next 2020 發布的新功能，以及一些示範架構！",
             "link": "#",
             "speaker": {
-                "avatar": "https://drive.google.com/file/d/1jNihcf9lMKrDNFcWC-dMqlP-YPEOpeKb/view?usp=sharing",
+                "avatar": "https://lh3.google.com/u/0/d/1jNihcf9lMKrDNFcWC-dMqlP-YPEOpeKb=w640-h400-k-iv1",
                 "name": "Daniel Tai (@danielsig727)",
                 "tag": "Cloud"
             }
         },
         {
-            "time": "2020-10-18 11:20",
+            "time": "2020-10-17 11:20",
             "title": "android 地圖",
             "description": "There is a Maps SDK for Android Utility Library provided by Google and marker cluster is one of them. The ClusterManager helps you manage multiple markers at different zoom levels. Let's clean up your map view with marker cluster!",
             "link": "#",
             "speaker": {
-                "avatar": "https://drive.google.com/file/d/1IL1chDOsYcoX87DfhySNs4edIdJ_U39q/view?usp=drivesdk",
-                "name": "米奇",
+                "avatar": "https://lh3.google.com/u/0/d/1aKUQXpxCtQYdU7cxihgIeDZWwMe2pCEA=w640-h400-k-iv1",
+                "name": "Mickey Chiang",
                 "tag": "WTM"
             }
         },
         {
-            "time": "2020-10-18 11:20",
+            "time": "2020-10-17 11:20",
             "title": "如何透過TensorFlow建構Responsible AI系統",
             "description": "分享如何透過TensorFlow以及Google相關的技術，<br />建立可解釋AI，並且打造具備負責任的機器學習機制，<br />包含從界定問題、建構及準備資料、建構與訓練模型、<br />評估模型、部署與監控等流程，運用的工具像是<br />Tensorboard、Embedding Projector、What-If Tool等，<br />協助大家了解機器學習的近期新發展方向。",
             "link": "#",
             "speaker": {
-                "avatar": "https://drive.google.com/file/d/19UU2bDQiQ0pHu9faIYNL04N8ES9nhQbJ/view?usp=sharing",
+                "avatar": "https://lh3.google.com/u/0/d/1LpQZ0efhrcv_L-RMw1UwSAUqeJ6LZt9e=w640-h400-k-iv1",
                 "name": "Jerry Wu",
                 "tag": "ML"
             }
         },
         {
-            "time": "2020-10-18 11:20",
+            "time": "2020-10-17 11:20",
             "title": "",
             "description": "",
             "link": "#",
@@ -139,18 +185,18 @@
     ],
     "13:00": [
         {
-            "time": "2020-10-18 13:00",
+            "time": "2020-10-17 13:00",
             "title": "How to debug Microservices on Kubernetes as a pros",
             "description": "在雲原生時代，基於 Kubernetes 的微服務應用程式架構模式已經快變成基本動作，本議程將介紹如何在 Kubernetes 進行 Debug 來加快開發的速度",
             "link": "#",
             "speaker": {
-                "avatar": "https://drive.google.com/file/d/1UZKnf7MNZoFUi5riH5dy9tvtj4jNBb4f/view?usp=sharing",
+                "avatar": "https://lh3.googleusercontent.com/4o9AryKJDlhgFcFCnLfQg0RUR7HiFr-Y32I-cAurFkq_aQBKuxq1L58YJ0CjsnOUt8BulKREmtAMKbH75RTC=w1960-h1844-rw",
                 "name": "Cage",
                 "tag": "Cloud"
             }
         },
         {
-            "time": "2020-10-18 13:00",
+            "time": "2020-10-17 13:00",
             "title": "Build a Strong Presence with Professional",
             "description": "目前任職於 CakeResume 的 Gareth，過去曾擔任 Apple 的人力資源專家，負責公司優秀人才的引入，現為團隊裡的商務開發，幫助公司不斷開拓新的商業版圖。Gareth 將從個人角度和大家分享，他過去利用線上、線下的管道挑選人才時，所重視的人格特質，以及作為求職者的我們，可以如何用客製化的履歷凸顯自己！",
             "link": "#",
@@ -161,7 +207,7 @@
             }
         },
         {
-            "time": "2020-10-18 13:00",
+            "time": "2020-10-17 13:00",
             "title": "Crowdsorce (1/2)",
             "description": "<a src='https://crowdsource.google.com/about/'>Crowdsource by Google</a> is a way for you to help make the world a more inclusive place, by participating in fun activities that train Google's artificial intelligence (AI) systems to more accurately understand more languages and cultures, and make Google services work even better for your own community and region. Join this session to learn how you can make an impact on the open source as well as train Google's AI systems to make your favorite apps and services even more useful and delightful for your community.",
             "link": "#",
@@ -172,7 +218,7 @@
             }
         },
         {
-            "time": "2020-10-18 13:00",
+            "time": "2020-10-17 13:00",
             "title": "",
             "description": "",
             "link": "#",
@@ -185,18 +231,18 @@
     ],
     "13:40": [
         {
-            "time": "2020-10-18 13:40",
+            "time": "2020-10-17 13:40",
             "title": "實際案例改編，客戶洩漏 Key 導致整個 GCP 專案淪為駭客挖礦工具",
             "description": "本議程將藉由案例來了解疏於控管的雲端 Key 如何被駭客利用，並在雲端上進行惡意挖礦行為，且由您來支付雲端費用。<br />並會由此案例分享 GCP 主動通報機制、最佳實踐與 GCP IAM 權限控管、以及退費申請流程。",
             "link": "#",
             "speaker": {
-                "avatar": "https://drive.google.com/file/d/1aU62RfmBS7QD39TiwFySrvM5MxQByd7A/view?usp=sharing",
+                "avatar": "https://lh6.googleusercontent.com/dD1Qe3TzpdNnQXFWbmXZv5D1yGGJ2vyyDkbdFdapCVGEzimE1mGAN6gc16ZzZSuCiD8zTO9bOjYgsTB-lA0u=w1960-h1844-rw",
                 "name": "Brent Chang",
                 "tag": "Cloud"
             }
         },
         {
-            "time": "2020-10-18 13:40",
+            "time": "2020-10-17 13:40",
             "title": "AI for Elderly interaction",
             "description": "本議程將藉由案例來了解疏於控管的雲端 Key 如何被駭客利用，並在雲端上進行惡意挖礦行為，且由您來支付雲端費用。並會由此案例分享 GCP 主動通報機制、最佳實踐與 GCP IAM 權限控管、以及退費申請流程。",
             "link": "#",
@@ -207,7 +253,7 @@
             }
         },
         {
-            "time": "2020-10-18 13:40",
+            "time": "2020-10-17 13:40",
             "title": "Crowdsorce (2/2)",
             "description": " ",
             "link": "#",
@@ -218,7 +264,7 @@
             }
         },
         {
-            "time": "2020-10-18 13:40",
+            "time": "2020-10-17 13:40",
             "title": "",
             "description": "",
             "link": "#",
@@ -231,29 +277,29 @@
     ],
     "14:20": [
         {
-            "time": "2020-10-18 14:20",
+            "time": "2020-10-17 14:20",
             "title": "Cloud function for firebase 基礎入門",
             "description": "Cloud Functions for Firebase 是一個 Serverless Framework，您可以透過 HTTP Request 或 Firebase 本身功能進發觸發，自動執行後端程式並進行回應。<br />您所撰寫的 JavaScripts 或 TypeScript 將儲存於 Google Cloud 中，且無須自行管理管理與擴充伺服器。本教學將從基礎開始，簡單說明如何撰寫、佈署與測試<br />Cloud function，並且介紹幾個使用情境，讓開發人員能更進一步了解 Firebase。",
             "link": "#",
             "speaker": {
-                "avatar": "https://drive.google.com/file/d/1VMUov_MuSgHtN2ZjzUUD4eiR1L0x5dzY/view?usp=sharing",
+                "avatar": "https://lh3.google.com/u/0/d/1VMUov_MuSgHtN2ZjzUUD4eiR1L0x5dzY=w640-h400-k-iv1",
                 "name": "Duran",
                 "tag": "Firebase"
             }
         },
         {
-            "time": "2020-10-18 14:20",
+            "time": "2020-10-17 14:20",
             "title": "Flutter 是什麼？用 Flutter 會省到時間嗎？",
             "description": "Flutter 是什麼？可以吃嗎？<br />採用 Flutter 有什麼好處？一個新開的專案，我要用原生好還是用 Flutter 呢？<br />這次講題會快速帶過 Flutter 近期改版、關鍵概念、一些介紹常用的元件 與 經驗分享<br />希望給大家一個參考跟指引",
             "link": "#",
             "speaker": {
-                "avatar": "https://drive.google.com/file/d/1-EScCm79YT_YAar66WmeiGY_-RCU8DK0/view?usp=sharing",
+                "avatar": "https://lh6.googleusercontent.com/zqXGSwVQ0ImxVDXyTA4NC3uXa6c4ivG-RlCKzC5guCdN3LcGz_mejuDuS7oHtFzaxYGhjzqo2Yo5pF3n1Hwg=w1960-h1844-rw",
                 "name": "Johnny Sung",
                 "tag": "Mobile"
             }
         },
         {
-            "time": "2020-10-18 14:20",
+            "time": "2020-10-17 14:20",
             "title": "車輛特徵工程與視覺化分析",
             "description": "介紹未來車輛發展趨勢，以及最新的下世代車載高速網路通訊系統Automotive Ethernet，能夠克服自動駕駛車輛導入更多的感測器，進而增加大量的資料數據，導致網路頻寬傳輸不足的問題。另外一方面，如此龐大的資料數據，該如何整合到雲端資料庫，在藉由Google Cloud相關技術，快速有效的分析數據與找到問題的癥兆，讓大家認識車輛產業與數據分析的實際案例分享。",
             "link": "#",
@@ -264,7 +310,7 @@
             }
         },
         {
-            "time": "2020-10-18 14:20",
+            "time": "2020-10-17 14:20",
             "title": "",
             "description": "",
             "link": "#",
@@ -277,40 +323,40 @@
     ],
     "15:00": [
         {
-            "time": "2020-10-18 15:00",
+            "time": "2020-10-17 15:00",
             "title": "咻的～滑進 App - 透過 Firebase Dynamic Link 順暢導入使用者",
             "description": "透過 Deep Link 我們能夠透過網址將使用者導入特定頁面，但如果使用者沒有安裝應用程式又或是未登入，能夠透過什麼方式讓流程更順暢呢？本議程將以 OPass 為例，演示透過 Firebase Dynamic Link 能夠如何流暢導引使用者安裝應用程式。<br /><br />OPass 原本是是為了台灣開源資訊社群研討會所開發的報到 App，在 SITCON 學生計算機年會及 COSCUP 開源人年會已多次使用，為了各活動的使用需求便啟動了整合計畫，成為了 OPass 大平台來繼續提供給大家最好的報到體驗，並提供第一手的年會資訊。",
             "link": "#",
             "speaker": {
-                "avatar": "https://drive.google.com/file/d/1_Gi6pFFS-CoJhvmyYS3p6-UwrpmJVw-N/view?usp=sharing",
+                "avatar": "https://lh3.google.com/u/0/d/1_Gi6pFFS-CoJhvmyYS3p6-UwrpmJVw-N=w640-h400-k-iv1",
                 "name": "Denny Huang",
                 "tag": "Firebase"
             }
         },
         {
-            "time": "2020-10-18 15:00",
+            "time": "2020-10-17 15:00",
             "title": "展望 Kotlin 1.4：聊聊語言、函式庫、KMM 與後端開發",
             "description": "Kotlin 1.4 於 8 月中正式發佈，並在 10 月中舉辦為期 4 天的線上論壇。此次更新主要著重在提升核心程式的品質及效能，並在標準函式庫裡有許多重大更新。除此之外，更推出全新的 KMM（Kotlin Multiplatform Mobile）讓開發者將現有的 Mobile 專案跨足兩個平台，在後端也有來自 Spring、Ktor 及 Kotless 的新消息。這場分享將邀請來自 Kotlin 社群的專家好手，從語言、函式庫、KMM 與後端等 4 個面向，分享 Kotlin 1.4 更新摘要及自己的開發經驗，並與大家討論 Kotlin 的未來。",
             "link": "#",
             "speaker": {
                 "avatar": "",
-                "name": "Kotlin 同好俱樂部",
+                "name": "范聖佑 及 Kotlin 同好俱樂部",
                 "tag": "Web"
             }
         },
         {
-            "time": "2020-10-18 15:00",
+            "time": "2020-10-17 15:00",
             "title": "香港 \"How to extract 𝓧 from receipts?\" 英文",
             "description": "Explain how artificial intelligence (AI) and optical character recognition (OCR) technology are used in data capture and extraction with FormExtractor.",
             "link": "#",
             "speaker": {
-                "avatar": "https://drive.google.com/file/d/1-WN7yeSYyoklCWVXU3amagSsVEWR0DFP/view?usp=sharing",
+                "avatar": "https://lh3.google.com/u/0/d/1-bZCaun9wq3Rcs6GHqMKTO6N1sIfduyi=w640-h400-k-iv1",
                 "name": "Elliot",
                 "tag": "ML"
             }
         },
         {
-            "time": "2020-10-18 15:00",
+            "time": "2020-10-17 15:00",
             "title": "",
             "description": "",
             "link": "#",
@@ -323,40 +369,40 @@
     ],
     "15:40": [
         {
-            "time": "2020-10-18 15:40",
+            "time": "2020-10-17 15:40",
             "title": "Android 技術選擇導覽，面向初學 - 1 - 3 - 5年經驗",
             "description": "   ",
             "link": "#",
             "speaker": {
-                "avatar": "https://drive.google.com/file/d/1NywU91w_RwX81pROj7VcUnxzrsbWrY_0/view?usp=sharing",
+                "avatar": "https://lh3.google.com/u/0/d/1NywU91w_RwX81pROj7VcUnxzrsbWrY_0=w2000-h2042-iv1",
                 "name": "Takuma",
                 "tag": "Mobile"
             }
         },
         {
-            "time": "2020-10-18 15:40",
+            "time": "2020-10-17 15:40",
             "title": "展望 Kotlin 1.4：聊聊語言、函式庫、KMM 與後端開發",
             "description": "Kotlin 1.4 於 8 月中正式發佈，並在 10 月中舉辦為期 4 天的線上論壇。此次更新主要著重在提升核心程式的品質及效能，並在標準函式庫裡有許多重大更新。除此之外，更推出全新的 KMM（Kotlin Multiplatform Mobile）讓開發者將現有的 Mobile 專案跨足兩個平台，在後端也有來自 Spring、Ktor 及 Kotless 的新消息。這場分享將邀請來自 Kotlin 社群的專家好手，從語言、函式庫、KMM 與後端等 4 個面向，分享 Kotlin 1.4 更新摘要及自己的開發經驗，並與大家討論 Kotlin 的未來。",
             "link": "#",
             "speaker": {
                 "avatar": "",
-                "name": "Kotlin 同好俱樂部",
+                "name": "范聖佑 及 Kotlin 同好俱樂部",
                 "tag": "Web"
             }
         },
         {
-            "time": "2020-10-18 15:40",
+            "time": "2020-10-17 15:40",
             "title": "Dialogflow with LINE bot  應用語意分析於 LINE Bot及action on google 開發",
             "description": "自我介紹<br />開場破題<br />．Dialogflow 可以幫你解決上訴問題<br />．Dialogflow 這麼神奇的東西，與其他競品比較<br />．Dialogflow 太好了，但我試著做了，好像沒那麼好用，那是因為你用錯了<br />．Dialogflow 哇，好棒棒，那應該怎麼code呢? Live Demo Dialogflow 入手<br />．Dialogflow 還能怎麼用?　Action on google　－　遇見語音未來 Assistant Overview",
             "link": "#",
             "speaker": {
-                "avatar": "https://drive.google.com/drive/folders/1YOpQHg4gFZmDxMlELrbgRNG98J5O1odv",
+                "avatar": "https://lh3.google.com/u/0/d/1DQLBgS2h9WRPdVbjBNyGamW3aBUbv_Rc=w640-h400-k-iv2",
                 "name": "Wolke Lin",
                 "tag": "GOOGLE ASSISTANT"
             }
         },
         {
-            "time": "2020-10-18 15:40",
+            "time": "2020-10-17 15:40",
             "title": "",
             "description": "",
             "link": "#",

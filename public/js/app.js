@@ -18121,8 +18121,8 @@ jquery__WEBPACK_IMPORTED_MODULE_1___default()('.sidenav a, .sidenav-close').on('
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/ahdaa/Documents/GDG/Devfest2020/src/js/app.js */"./src/js/app.js");
-module.exports = __webpack_require__(/*! /Users/ahdaa/Documents/GDG/Devfest2020/src/scss/app.scss */"./src/scss/app.scss");
+__webpack_require__(/*! C:\Users\mosil\Documents\gdg\devfest2020-web\src\js\app.js */"./src/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\mosil\Documents\gdg\devfest2020-web\src\scss\app.scss */"./src/scss/app.scss");
 
 
 /***/ })

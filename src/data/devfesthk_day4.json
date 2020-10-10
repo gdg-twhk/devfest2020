@@ -4,7 +4,7 @@
       "time": "2020-10-18 10:30",
       "title": "使用GCP實時傳送、儲存及分析IoT數據",
       "description": "",
-      "link": "#",
+      "link": "http://bit.do/devfesthk2020",
       "speaker": {
         "avatar": "https://www.gdghk.org/wp-content/uploads/2019/10/0.jpg",
         "name": "Orix Au Yeung",
@@ -17,7 +17,7 @@
       "time": "2020-10-18 11:20",
       "title": "Kotlin as a language for concurrency",
       "description": "",
-      "link": "#",
+      "link": "http://bit.do/devfesthk2020",
       "speaker": {
         "avatar": "",
         "name": "George Leung",
@@ -30,9 +30,9 @@
       "time": "2020-10-18 12:00",
       "title": "Generate pixel perfect PDF with web technology",
       "description": "JavaScript, HTML, and CSS are the most widely used technologies for creating web UI. This talk will teach you how to use the same technology to create a pixel-perfect PDF with these featured, auto paging support, dynamic header/footer, and most importantly high performance. ",
-      "link": "#",
+      "link": "http://bit.do/devfesthk2020",
       "speaker": {
-        "avatar": "https://drive.google.com/file/d/1ykQtZ8iyQr-3YysJOWbxK8vl8Y6YMwF8/view?usp=sharing",
+        "avatar": "https://lh3.google.com/u/0/d/1ibyIrXjgOQ37TtwbEs89qszhxYRzEA0e=w640-h400-k-iv1",
         "name": "Ricky Lam",
         "tag": "Web"
       }
@@ -43,7 +43,7 @@
       "time": "2020-10-18 12:40",
       "title": "Build an interactive and searchable map using GeoDjango",
       "description": "",
-      "link": "#",
+      "link": "http://bit.do/devfesthk2020",
       "speaker": {
         "avatar": "",
         "name": "Wong Ho Wa",
@@ -56,7 +56,7 @@
       "time": "2020-10-18 13:20",
       "title": "Why you don’t need kubenetes",
       "description": "- Why do people need docker and kubernetes?\n- How to achieve your mission without kubernetes in gcloud?\n- CloudRun / KNative in a nutshell\n",
-      "link": "#",
+      "link": "http://bit.do/devfesthk2020",
       "speaker": {
         "avatar": "",
         "name": "Tin Mak",
@@ -69,7 +69,7 @@
       "time": "2020-10-18 14:00",
       "title": "Cloud topic TBC",
       "description": "",
-      "link": "#",
+      "link": "http://bit.do/devfesthk2020",
       "speaker": {
         "avatar": "",
         "name": "",
@@ -82,7 +82,7 @@
       "time": "2020-10-18 14:40",
       "title": "把 Ktor 部署到 Google Cloud 去 Jetbrains",
       "description": "",
-      "link": "#",
+      "link": "http://bit.do/devfesthk2020",
       "speaker": {
         "avatar": "",
         "name": "",
@@ -95,7 +95,7 @@
       "time": "2020-10-18 15:20",
       "title": "Codelab \"Mapping out\"",
       "description": "",
-      "link": "#",
+      "link": "http://bit.do/devfesthk2020",
       "speaker": {
         "avatar": "https://www.gdghk.org/wp-content/uploads/2020/06/Homing_500.png",
         "name": "Homing",
