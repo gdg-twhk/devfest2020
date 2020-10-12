@@ -17233,6 +17233,10 @@ body {
   font-family: "Noto Sans TC", sans-serif;
 }
 
+body {
+  padding-top: 56px;
+}
+
 h1 {
   color: #001adf;
   font-size: 3em;
@@ -17556,9 +17560,8 @@ footer .scroll-to-top {
     right: -1em;
   }
 
-  #navbar-devfest2020 .navbar-brand {
-    margin-right: auto !important;
-    margin-left: auto !important;
+  #navbar-devfest2020 span {
+    margin-left: 0 !important;
   }
 
   #devfest2020 {
@@ -17718,12 +17721,6 @@ footer .scroll-to-top {
   .nav-devfest2020.agenda .nav-item .nav-link small {
     margin-top: 5px !important;
     font-size: 0.6rem !important;
-  }
-}
-
-@media (max-width: 575.98px) {
-  #navbar-devfest2020 .navbar-brand span {
-    margin-left: -40px;
   }
 }
 

@@ -21,9 +21,8 @@ h1 {
 }
 
 #navbar-devfest2020 {
-    .navbar-brand {
-        margin-right: auto !important;
-        margin-left: auto !important;
+    span {
+        margin-left: 0 !important;
     }
 }
 
