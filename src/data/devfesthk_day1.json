@@ -45,7 +45,7 @@
       "description": "Blockchain technology is becoming more popular nowadays. In this session, you will be introduced the concepts of blockchain, smart contract, as well as using Solidity and Ethereum to build a simple blockchain app.",
       "link": "http://bit.do/devfesthk2020",
       "speaker": {
-        "avatar": "https://lh3.google.com/u/0/d/14Ir6bIBgDqTsdRmttvdtOBNdDjPjYmV5=w640-h400-k-iv1",
+        "avatar": "images/speaker/Thomas.jpg",
         "name": "Thomas Chong",
         "tag": "Mobile"
       }
@@ -58,7 +58,7 @@
       "description": "Backend and Frontend developers now have amazing tools up their sleeves, ie. GraphQL SQL/No-SQL database, Firebase, etc, but there are always problems with communication for projects of teams, a distinct coding style might be difficult for managing states and resolving identical results in the different codebase. I hope to provide an alternative solution through this talk, where users worry less about implementation and more on software design.\n- A problem with backend and frontend synchronization\n- Graphql introduction\n- MongoDB + Mongoose Introduction\n- Typegraphql introduction\n- Typegoose introduction\n- A Graphql Server with Apollo and Angular demo.\n",
       "link": "http://bit.do/devfesthk2020",
       "speaker": {
-        "avatar": "https://lh3.google.com/u/0/d/1Tm1pd-FwGXv0JFnImTNgZT9DKgTvwAON=w640-h400-k-iv1",
+        "avatar": "images/speaker/Eugene.jpeg",
         "name": "DSC CityU - Eugene",
         "tag": "Web"
       }
@@ -71,7 +71,7 @@
       "description": "Deploying to the cloud is one of the most important parts of nowadays business. No matter if you are a GCP, Azure, or AWS lover, using Kubernetes as your container orchestration software is definitely a future proof solution. This session is a beginner tech sharing that will demo how to deploy your project to the cloud.\n1. Starting from scratch\n2. Concept and architecture of K8s\n3. Dockerize your project\n4. Running image on pods\n5. Deploy to GCP Kubernetes Engine",
       "link": "http://bit.do/devfesthk2020",
       "speaker": {
-        "avatar": "https://lh3.google.com/u/0/d/1eJiHLuavT9T60kFbU1l_XPbMoE35RuTs=w640-h400-k-iv1",
+        "avatar": "images/speaker/RyanYen.jpeg",
         "name": "DSC CityU - Ryan",
         "tag": "Cloud"
       }

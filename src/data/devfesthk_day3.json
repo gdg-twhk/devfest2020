@@ -6,7 +6,7 @@
         "description": "We have been hearing a lot about the benefits of using the reactive approach to solving concurrency problems in distributed systems. While reactive programming refers to the implementation techniques being used on the coding level, on the systems deployment and runtime level, we can leverage on a robust yet very flexible and lightweight framework such as Vert.x to deliver. In this session, we will first learn about what the missions of a reactive system are, which, among many things, include handling multiple concurrent data stream flows and being able to control back pressure as well as managing errors in an elegant manner. The very loosely-coupled nature of a reactive system also lends itself very well to building microservices that can communicate well within its messaging infrastructure.  We will also discuss the special polyglot nature of Vert.x, its event loop, and its use of the Vertical model. Live coding will accompany this session to illustrate how to program a simple use case using multiple JVM languages such as Java and Kotlin, we will then build and dockerize it to be deployed as a serverless container to the Knative cluster on the cloud in a delightful manner.",
         "link": "http://bit.do/devfesthk2020",
         "speaker": {
-            "avatar": "https://lh3.google.com/u/0/d/1Ou2kTBPwLWMObXCld8juDO60V_PSdWiC=w640-h400-k-iv1",
+            "avatar": "images/speaker/GDG-KaoHsiung2020-Grygleski.jpg",
             "name": "Mary Grygleski",
             "tag": "Cloud"
         }
@@ -19,7 +19,7 @@
         "description": " ",
         "link": "http://bit.do/devfesthk2020",
         "speaker": {
-            "avatar": "https://lh3.google.com/u/0/d/1Ou2kTBPwLWMObXCld8juDO60V_PSdWiC=w640-h400-k-iv1",
+            "avatar": "images/speaker/GDG-KaoHsiung2020-Grygleski.jpg",
             "name": "Mary Grygleski",
             "tag": "Cloud"
         }
@@ -58,7 +58,7 @@
       "description": "Tune in to hear the latest about Google Play that may be relevant for you! ",
       "link": "http://bit.do/devfesthk2020",
       "speaker": {
-        "avatar": "https://lh3.google.com/u/0/d/1_8WwZs4oYS6MgoLgpew4FnLgYOBuDui-=w640-h400-k-iv1",
+        "avatar": "images/speaker/Jennifer_Chan.jpeg",
         "name": "WTM Jennifer Chan",
         "tag": "WTM"
       }
@@ -71,7 +71,7 @@
       "description": "Have you ever given a thought on how to modernize 15 years old software systems? How about if they are written in 2 different countries by engineers from different tech backgrounds and in fact formerly being competitors? Do you think it is quick and easy to move from a data center to a modern cloud infrastructure? I’d talk about challenges and complexity to transform mature systems with millions of users to be supported around the clock. Join the session to find out about various ways to go about this journey, what worked and what didn't work for us.",
       "link": "http://bit.do/devfesthk2020",
       "speaker": {
-        "avatar": "https://lh3.google.com/u/0/d/1MExl3z5FHbgjRI-qL7cG_JWokSOwEmsm=w640-h400-k-iv1",
+        "avatar": "images/speaker/Jane.jpg",
         "name": "Jane Freider",
         "tag": "WTM"
       }

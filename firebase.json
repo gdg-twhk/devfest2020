@@ -1,7 +1,17 @@
 {
-    "hosting": {
-        "site": "devfest2020",
-        "public": "public",
-        "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
-    }
+  "hosting": {
+    "site":"devfest2020",
+    "public": "public",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
 }

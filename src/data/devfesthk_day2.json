@@ -58,7 +58,7 @@
       "description": "- Why 99% of the Browsers’ UI threads are overworked\n- Why the UI thread is going to be underpaid?\n- Do You know your the UI Thread always send SOS signal to you?\n- Off load your tasks by natures. UI threads only do UI works.",
       "link": "http://bit.do/devfesthk2020",
       "speaker": {
-        "avatar": "https://lh3.google.com/u/0/d/1Vz0kTwAHVVYQ2vGRkzajLcFX8S82y5Gb=w640-h400-k-iv1",
+        "avatar": "images/speaker/GapLo.jpeg",
         "name": "Gap撈Tech",
         "tag": "Web"
       }
