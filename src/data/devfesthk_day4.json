@@ -16,7 +16,7 @@
     {
       "time": "2020-10-18 11:20",
       "title": "Kotlin as a language for concurrency",
-      "description": " ",
+      "description": "You think of JavaScript and Go when you hear \"concurrency\". Let me show you how Kotlin does it better.",
       "link": "http://bit.do/devfesthk2020",
       "speaker": {
         "avatar": "",
@@ -55,7 +55,7 @@
     {
       "time": "2020-10-18 13:20",
       "title": "Why you don’t need kubenetes",
-      "description": "- Why do people need docker and kubernetes?\n- How to achieve your mission without kubernetes in gcloud?\n- CloudRun / KNative in a nutshell\n",
+      "description": "Why do people need docker and kubernetes?\n- How to achieve your mission without kubernetes in gcloud?\n- CloudRun / KNative in a nutshell\n",
       "link": "http://bit.do/devfesthk2020",
       "speaker": {
         "avatar": "",
@@ -67,12 +67,12 @@
   "14:00": [
     {
       "time": "2020-10-18 14:00",
-      "title": "Cloud topic TBC",
-      "description": " ",
+      "title": "AutoML - Introduction, Use Cases and Demo",
+      "description": "Cloud AutoML is a suite of machine learning products that enables developers with limited machine learning expertise to train high-quality models specific to their business needs. It relies on Google’s state-of-the-art transfer learning and neural architecture search technology. In this session we will go through what's available in this suite.",
       "link": "http://bit.do/devfesthk2020",
       "speaker": {
         "avatar": "",
-        "name": "",
+        "name": "Herman Mak & Charles Wong",
         "tag": "Cloud"
       }
     }
@@ -81,11 +81,11 @@
     {
       "time": "2020-10-18 14:40",
       "title": "把 Ktor 部署到 Google Cloud 去 Jetbrains",
-      "description": " ",
+      "description": "Ktor 是由 JetBrains 以 100% Kotlin 打造的 Web 框架，其簡潔輕量、易懂好學的設計，讓其非常適合用於網路服務的開發。不過許多新手在學會 Ktor 後最常問的問題，就是該怎麼部署到雲端？在這場分享裡，將會分享如何將 Ktor 打包成 Container Image 後部署上雲。",
       "link": "http://bit.do/devfesthk2020",
       "speaker": {
         "avatar": "",
-        "name": "",
+        "name": "范聖佑",
         "tag": "Kotlin/Cloud"
       }
     }
@@ -94,11 +94,11 @@
     {
       "time": "2020-10-18 15:20",
       "title": "Codelab \"Mapping out\"",
-      "description": " ",
+      "description": "Hands-on workshop about using Google Map API",
       "link": "http://bit.do/devfesthk2020",
       "speaker": {
         "avatar": "https://www.gdghk.org/wp-content/uploads/2020/06/Homing_500.png",
-        "name": "Homing",
+        "name": "Homing Tam & Emma Wong",
         "tag": "Other"
       }
     }
