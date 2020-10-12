@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "devfest-tw"
+  },
+  "hosting": {
+    "target":"devfest2020",
+    "public":"public"
+  }
+}
