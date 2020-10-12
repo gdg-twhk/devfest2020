@@ -10,6 +10,10 @@ body {
     font-family: 'Noto Sans TC', sans-serif;
 }
 
+body {
+    padding-top: 56px;
+}
+
 h1 {
     @extend .text-center;
     color: #001adf;
@@ -349,14 +353,4 @@ footer {
 
 @include media-breakpoint-down(md) {
     @import 'mobile';
-}
-
-@include media-breakpoint-down(xs) {
-    #navbar-devfest2020 {
-        .navbar-brand {
-            span {
-                margin-left: -40px;
-            }
-        }
-    }
 }
