@@ -10,7 +10,7 @@
                 "name": "Shangkuan Ericsk",
                 "tag": "Devfest"
             }
-        }, 
+        },
         {
             "time": "2020-10-17 09:45",
             "title": "Devfest 2020 開場",
@@ -21,7 +21,7 @@
                 "name": "Shangkuan Ericsk",
                 "tag": "Devfest"
             }
-        }, 
+        },
         {
             "time": "2020-10-17 09:45",
             "title": "Devfest 2020 開場",
@@ -74,7 +74,7 @@
             "description": "印象中的Action On Google<br />AOG分別deploy在哪些裝置上<br />Interactive Canvas是什麼<br />簡單實作Interactive Canvas with Action On Google<br />試玩看實作內容",
             "link": "#",
             "speaker": {
-                "avatar": "images/speaker/Martin_Hsu.jpg",
+                "avatar": "images/speaker/kevin.jpg",
                 "name": "Martin Hsu",
                 "tag": "GOOGLE ASSISTANT"
             }

@@ -54,6 +54,7 @@ mix.js('src/js/app.js', 'public/js/')
         { base: 'src/ejs', partials: 'src/ejs/partials' },
     )
     .sass('src/scss/app.scss', 'public/css/')
+    .copy('src/images/speaker/*', 'public/images/speaker')
     // .copy('node_modules/bootstrap-ie8/css/*.css', 'public/css')
     // .copy('node_modules/bootstrap-ie8/js/*.js', 'public/js')
     .setPublicPath('public')
