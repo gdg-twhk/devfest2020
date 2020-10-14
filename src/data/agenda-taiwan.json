@@ -86,7 +86,7 @@
             "link": "#",
             "speaker": {
                 "avatar": "images/speaker/tzu_ping_chung.png",
-                "name": "Tzu-ping Chung",
+                "name": "Dboy",
                 "tag": "ML"
             }
         }
@@ -212,7 +212,7 @@
             "description": "<a src='https://crowdsource.google.com/about/'>Crowdsource by Google</a> is a way for you to help make the world a more inclusive place, by participating in fun activities that train Google's artificial intelligence (AI) systems to more accurately understand more languages and cultures, and make Google services work even better for your own community and region. Join this session to learn how you can make an impact on the open source as well as train Google's AI systems to make your favorite apps and services even more useful and delightful for your community.",
             "link": "#",
             "speaker": {
-                "avatar": "",
+                "avatar": "images/speaker/jerry.jpg",
                 "name": "Crowdsource Team",
                 "tag": "WTM"
             }
@@ -258,7 +258,7 @@
             "description": " ",
             "link": "#",
             "speaker": {
-                "avatar": "",
+                "avatar": "images/speaker/jerry.jpg",
                 "name": "Crowdsource Team",
                 "tag": "WTM"
             }
