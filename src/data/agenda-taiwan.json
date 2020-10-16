@@ -70,8 +70,8 @@
         },
         {
             "time": "2020-10-17 10:00",
-            "title": "Develop Interactive Canvas with Action On Google",
-            "description": "印象中的Action On Google<br />AOG分別deploy在哪些裝置上<br />Interactive Canvas是什麼<br />簡單實作Interactive Canvas with Action On Google<br />試玩看實作內容",
+            "title": "Google Assistant 的開發和新工具介紹",
+            "description": "1.Actions Builder<br />2.DialogFlow CX",
             "link": "#",
             "speaker": {
                 "avatar": "images/speaker/kevin.jpg",
